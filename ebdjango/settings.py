@@ -27,11 +27,9 @@ SECRET_KEY = 'm6%(xlwqsv1(q!ke2$+)!xpnk$9(to9tiyu!wyzasqzwuy9p^j'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-env.eba-nmyxz6fp.us-west-2.elasticbeanstalk.com', '127.0.0.1']
-
+    '127.0.0.1', 'django-tutorial-dev2222222222222222222222222.us-west-2.elasticbeanstalk.com']
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
